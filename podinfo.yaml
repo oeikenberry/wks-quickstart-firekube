@@ -64,7 +64,7 @@ items:
           - --random-error=false
           env:
           - name: PODINFO_UI_COLOR
-            value: cyan
+            value: black
           image: stefanprodan/podinfo:3.1.4
           imagePullPolicy: IfNotPresent
           livenessProbe:
