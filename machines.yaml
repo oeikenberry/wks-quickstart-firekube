@@ -59,7 +59,7 @@ items:
   metadata:
     labels:
       set: worker
-    name: worker-1
+    name: worker-2
     namespace: weavek8sops
   spec:
     providerSpec:
@@ -71,5 +71,5 @@ items:
           port: 22
         public:
           address: 127.0.0.1
-          port: 2224
+          port: 2225
 kind: List
